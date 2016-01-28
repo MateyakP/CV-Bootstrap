@@ -1,0 +1,205 @@
+@font-face {
+    font-family: Znikomit;
+    src: url('font/Znikomit.otf');
+}
+@font-face {
+  font-family: Cookie;
+  src: url('../font/Cookie-Regular.ttf');
+}
+body {
+  background-image: url(img/background.png);
+  margin: 0;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.top {
+  background-image: url(img/backgrounddark.png);
+}
+.top p {
+  margin-top: 1em;
+  margin-left: -1em;
+  font-size: 1em;
+}
+.nom {
+  font-size: 1.6em;
+}
+.clearfloat {
+  clear: both;
+}
+.middleline {
+  margin-left: 1em;
+  border: solid 1px grey;
+  width: 90%;
+  color: grey;
+}
+.pic {
+  text-align: center;
+}
+.aboutme,
+.contactme {
+  background-image: url(img/backgrounddark.png);
+  margin-top: 1em;
+}
+.aboutme p {
+  text-align:center;
+}
+.aboutme h2 {
+  font-family: Znikomit;
+  text-decoration: underline;
+  margin-bottom: 0;
+  text-align: center;
+}
+.contactme {
+  text-align: center;
+}
+.contactme h6 {
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-family: Znikomit;
+  font-size: 15px;
+}
+.contactline {
+  margin-top: 0;
+  margin-bottom: -1em;
+  width: 61%;
+  border: none;
+  border-bottom: dotted;
+  height: 1px;
+}
+.github {
+  color: black;
+  text-decoration: none;
+}
+.github:hover {
+  color: red;
+}
+h3 {
+  font-family: Znikomit;
+  margin-bottom: 0;
+  text-decoration: underline;
+}
+h4 {
+  font-family: Znikomit;
+  text-decoration: underline;
+}
+.black {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-image: url(img/backgrounddark.png);
+  height: 85px;
+  text-align: center;
+}
+.black a {
+  color: black;
+}
+.fa-hand-o-down {
+  /*padding-top: 5px;*/
+  font-size: 85px !important;
+  font-weight: bold;
+  color: black;
+}
+/*.fa-hand-o-down:hover {*/
+  /*color: red;*/
+/*}*/
+
+.skills {
+  margin-top: 10px;
+  background-image: url(img/backgrounddark.png);
+  /*border: solid 1px black;*/
+  text-align: center;
+  margin-bottom: 1em;
+}
+.avancement {
+  width: 125px;
+  height: 12px;
+  border: solid 1px black;
+  background-image: url(img/backgrounddarker.png);
+  /*-moz-progress-bar: red;*/
+  /*box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25) inset;*/
+}
+.avancement::-moz-progress-bar {
+  background-color: #180100;
+}
+.experiences {
+  background-image: url(img/backgrounddark.png);
+  /*border: solid 1px black;*/
+  margin-top: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+li {
+  list-style-type:none;
+}
+.experiences p {
+  margin-top: 5px;
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+}
+
+
+
+
+
+.fonting2 {
+  font-size: 17px;
+}
+
+
+.worklink {
+  color: black;
+  text-decoration: none;
+  border: solid 1px black;
+  padding: 6px;
+}
+.worklink:hover {
+  color: red;
+  background-image: url(img/backgrounddarker.png);
+}
+
+.backtotop a {
+  color: white;
+  text-decoration: none;
+}
+
+.backtotop a:hover {
+  color: red;
+}
+.diap {
+}
+
+
+.backtotop {
+  color: white;
+  position: absolute;
+  margin-top: -43px;
+
+  font-size: 14px;
+}
+.footer {
+  margin-top: 0.7em;
+  background-color: black;
+  text-align: center;
+  /*background-image: url(img/backgrounddark.png);*/
+}
+/*.fa-copyright {
+  /*font-size: 150px;*/
+}
+.footer p {
+  color: white;
+}
+.icons i {
+  color: white;
+  font-size: 1.8em;
+  padding: 10px;
+}
+.copyright {
+  margin-top: 0.5em;
+  color: black;
+  font-size: 13px;
+}
+.col-lg-0 {
+  display: none;
+}
